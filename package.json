@@ -5,7 +5,8 @@
   "main": "lib/my-commonjs/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "pack": "electron-builder --dir",
+    "bad": "electron-builder --dir",
+    "good": "electron-builder --dir --config working.json",
     "dist": "electron-builder"
   },
   "author": "",
